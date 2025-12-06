@@ -1,0 +1,43 @@
+# -------------------
+# C++ Build & Object Files
+# -------------------
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+*.lai
+*.lo
+*.slo
+*.pch
+*.gch
+*.ilk
+*.dwo
+*.d
+*.mod
+*.smod
+
+# -------------------
+# Test Output
+# -------------------
+*.txt
+*.log
+*.tmp
+*.csv
+
+# -------------------
+# VSCode / IDE Settings
+# -------------------
+.vscode/
+*.code-workspace
+
+# -------------------
+# Misc / Temporary
+# -------------------
+*.swp
+*.DS_Store
