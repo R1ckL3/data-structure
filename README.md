@@ -69,7 +69,7 @@ data-structure/
 
 ```json
 {
-  "name": "Data_Structre",
+  "name": "data_structure",
   "type": "directory",
   "children": [
     {
@@ -89,12 +89,12 @@ data-structure/
           ]
         },
         {
-          "name": "trees",
+          "name": "graph",
           "type": "directory",
           "children": [
-            { "name": "bst.h", "type": "file" },
-            { "name": "trie.h", "type": "file" },
-            { "name": "avl_tree.h", "type": "file" }
+            { "name": "bfs.h", "type": "file" },
+            { "name": "dfs.h", "type": "file" },
+            { "name": "graph.h", "type": "file" }
           ]
         },
         {
@@ -106,31 +106,31 @@ data-structure/
           ]
         },
         {
-          "name": "linear",
-          "type": "directory",
-          "children": [
-            { "name": "doubly_linked_list.h", "type": "file" },
-            { "name": "singly_linked_list.h", "type": "file" },
-            { "name": "deque.h", "type": "file" },
-            { "name": "stack.h", "type": "file" },
-            { "name": "queue.h", "type": "file" }
-          ]
-        },
-        {
-          "name": "graph",
-          "type": "directory",
-          "children": [
-            { "name": "dfs.h", "type": "file" },
-            { "name": "bfs.h", "type": "file" },
-            { "name": "graph.h", "type": "file" }
-          ]
-        },
-        {
           "name": "heaps",
           "type": "directory",
           "children": [
-            { "name": "min_heap.h", "type": "file" },
-            { "name": "max_heap.h", "type": "file" }
+            { "name": "max_heap.h", "type": "file" },
+            { "name": "min_heap.h", "type": "file" }
+          ]
+        },
+        {
+          "name": "linear",
+          "type": "directory",
+          "children": [
+            { "name": "deque.h", "type": "file" },
+            { "name": "doubly_linked_list.h", "type": "file" },
+            { "name": "queue.h", "type": "file" },
+            { "name": "stack.h", "type": "file" },
+            { "name": "singly_linked_list.h", "type": "file" }
+          ]
+        },
+        {
+          "name": "trees",
+          "type": "directory",
+          "children": [
+            { "name": "avl_tree.h", "type": "file" },
+            { "name": "bst.h", "type": "file" },
+            { "name": "trie.h", "type": "file" }
           ]
         },
         {
@@ -142,15 +142,18 @@ data-structure/
     },
     {
       "name": "tests",
-      "type": "directory"
+      "type": "directory",
+      "children": []
     },
     {
       "name": "docs",
-      "type": "directory"
+      "type": "directory",
+      "children": []
     },
     {
       "name": "examples",
-      "type": "directory"
+      "type": "directory",
+      "children": []
     }
   ]
 }
