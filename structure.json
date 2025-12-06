@@ -1,0 +1,331 @@
+{
+    "name": "Data_Structre",
+    "type": "directory",
+    "children": [
+        {
+            "name": "structre.py",
+            "type": "file"
+        },
+        {
+            "name": "include",
+            "type": "directory",
+            "children": [
+                {
+                    "name": "advanced",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "lru_cache.h",
+                            "type": "file"
+                        },
+                        {
+                            "name": "union_find.h",
+                            "type": "file"
+                        }
+                    ]
+                },
+                {
+                    "name": "trees",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "bst.h",
+                            "type": "file"
+                        },
+                        {
+                            "name": "trie.h",
+                            "type": "file"
+                        },
+                        {
+                            "name": "avl_tree.h",
+                            "type": "file"
+                        }
+                    ]
+                },
+                {
+                    "name": "hash",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "hash_chaining.h",
+                            "type": "file"
+                        },
+                        {
+                            "name": "hash_open_addressing.h",
+                            "type": "file"
+                        }
+                    ]
+                },
+                {
+                    "name": "linear",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "doubly_linked_list.h",
+                            "type": "file"
+                        },
+                        {
+                            "name": "singly_linked_list.h",
+                            "type": "file"
+                        },
+                        {
+                            "name": "deque.h",
+                            "type": "file"
+                        },
+                        {
+                            "name": "stack.h",
+                            "type": "file"
+                        },
+                        {
+                            "name": "queue.h",
+                            "type": "file"
+                        }
+                    ]
+                },
+                {
+                    "name": "graph",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "dfs.h",
+                            "type": "file"
+                        },
+                        {
+                            "name": "bfs.h",
+                            "type": "file"
+                        },
+                        {
+                            "name": "graph.h",
+                            "type": "file"
+                        }
+                    ]
+                },
+                {
+                    "name": "utils",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "heaps",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "min_heap.h",
+                            "type": "file"
+                        },
+                        {
+                            "name": "max_heap.h",
+                            "type": "file"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "tests",
+            "type": "directory",
+            "children": [
+                {
+                    "name": "advanced",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "test_lru_cache.cpp",
+                            "type": "file"
+                        },
+                        {
+                            "name": "test_union_find",
+                            "type": "file"
+                        },
+                        {
+                            "name": "test_lru_cache",
+                            "type": "file"
+                        },
+                        {
+                            "name": "test_union_find.cpp",
+                            "type": "file"
+                        }
+                    ]
+                },
+                {
+                    "name": "trees",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "test_trie",
+                            "type": "file"
+                        },
+                        {
+                            "name": "test_avl_tree.cpp",
+                            "type": "file"
+                        },
+                        {
+                            "name": "bst_test.cpp",
+                            "type": "file"
+                        },
+                        {
+                            "name": "bst_test",
+                            "type": "file"
+                        },
+                        {
+                            "name": "test_avl_tree",
+                            "type": "file"
+                        },
+                        {
+                            "name": "trie_test",
+                            "type": "file"
+                        },
+                        {
+                            "name": "test_trie.cpp",
+                            "type": "file"
+                        }
+                    ]
+                },
+                {
+                    "name": "hash",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "hash_open_addressing_test.cpp",
+                            "type": "file"
+                        },
+                        {
+                            "name": "hash_open_addressing_test",
+                            "type": "file"
+                        },
+                        {
+                            "name": "test_hash_chaining",
+                            "type": "file"
+                        },
+                        {
+                            "name": "test_hash_chaining.cpp",
+                            "type": "file"
+                        }
+                    ]
+                },
+                {
+                    "name": "linear",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "stack_test.cpp",
+                            "type": "file"
+                        },
+                        {
+                            "name": "test_queue.cpp",
+                            "type": "file"
+                        },
+                        {
+                            "name": "SinglyLinkedList_test",
+                            "type": "file"
+                        },
+                        {
+                            "name": "deque_test",
+                            "type": "file"
+                        },
+                        {
+                            "name": "doubly_linked_list_test.cpp",
+                            "type": "file"
+                        },
+                        {
+                            "name": "test_queue",
+                            "type": "file"
+                        },
+                        {
+                            "name": "deque_test.cpp",
+                            "type": "file"
+                        },
+                        {
+                            "name": "doubly_linked_list_test",
+                            "type": "file"
+                        },
+                        {
+                            "name": "SinglyLinkedList_test.cpp",
+                            "type": "file"
+                        },
+                        {
+                            "name": "stack_test",
+                            "type": "file"
+                        }
+                    ]
+                },
+                {
+                    "name": "graphs",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "test_dfs",
+                            "type": "file"
+                        },
+                        {
+                            "name": "test_dfs.cpp",
+                            "type": "file"
+                        },
+                        {
+                            "name": "test_bfs.cpp",
+                            "type": "file"
+                        },
+                        {
+                            "name": "test_graph",
+                            "type": "file"
+                        },
+                        {
+                            "name": "test_bfs",
+                            "type": "file"
+                        },
+                        {
+                            "name": "test_graph.cpp",
+                            "type": "file"
+                        }
+                    ]
+                },
+                {
+                    "name": "heaps",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "min_heap_test",
+                            "type": "file"
+                        },
+                        {
+                            "name": "min_heap_test.cpp",
+                            "type": "file"
+                        },
+                        {
+                            "name": "max_heap_test.cpp",
+                            "type": "file"
+                        },
+                        {
+                            "name": "max_heap_test",
+                            "type": "file"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "docs",
+            "type": "directory",
+            "children": []
+        },
+        {
+            "name": "structure.json",
+            "type": "file"
+        },
+        {
+            "name": "examples",
+            "type": "directory",
+            "children": []
+        },
+        {
+            "name": ".vscode",
+            "type": "directory",
+            "children": [
+                {
+                    "name": "settings.json",
+                    "type": "file"
+                }
+            ]
+        }
+    ]
+}
