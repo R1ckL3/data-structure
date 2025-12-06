@@ -42,7 +42,7 @@ Designed for **learning, competitive programming, and system projects**. Include
 ---
 
 ## 📂 Folder Structure
-
+```
 data-structure/
 ├── include/           # Header files for all data structures
 │   ├── linear/
@@ -63,7 +63,7 @@ data-structure/
 ├── README.md
 ├── LICENSE
 └── .gitignore
-
+```
 <details>
 <summary>Click to view full JSON structure</summary>
 
