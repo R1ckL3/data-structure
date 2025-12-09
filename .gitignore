@@ -41,3 +41,9 @@
 # -------------------
 *.swp
 *.DS_Store
+
+# -------------------
+# Ignore executables with no extension (common for C++ test binaries)
+# -------------------
+tests/**/*
+!tests/**/*.cpp
