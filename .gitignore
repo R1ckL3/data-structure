@@ -1,6 +1,6 @@
-# -------------------
-# C++ Build & Object Files
-# -------------------
+# ===============================
+# C++ Build / Object Files
+# ===============================
 *.o
 *.obj
 *.exe
@@ -14,38 +14,50 @@
 *.lai
 *.lo
 *.slo
-*.pch
 *.gch
+*.pch
 *.ilk
 *.dwo
 *.d
 *.mod
 *.smod
 
-# -------------------
-# Test Output
-# -------------------
+# ===============================
+# Compiled Test Binaries (no extension)
+# These match your unwanted files like:
+# test_stack, stack_test, bst_test, test_lru_cache, etc.
+# ===============================
+test_*
+*_test
+
+# ===============================
+# Test Output / Temporary Files
+# ===============================
 *.txt
 *.log
 *.tmp
 *.csv
 
-# -------------------
-# VSCode / IDE Settings
-# -------------------
+# ===============================
+# Editor / IDE Files
+# ===============================
 .vscode/
 *.code-workspace
 
-# -------------------
-# Misc / Temporary
-# -------------------
-*.swp
-*.DS_Store
+# JetBrains (CLion)
+.idea/
+cmake-build-*/
+*.iml
 
-# -------------------
-# Ignore executables with no extension (common for C++ test binaries)
-# -------------------
-tests/**/*
-!tests/**/*.cpp
-test_*
-*_test
+# ===============================
+# OS junk files
+# ===============================
+*.DS_Store
+*.swp
+Thumbs.db
+
+# ===============================
+Python files
+# ===============================
+__pycache__/
+*.pyc
